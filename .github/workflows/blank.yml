@@ -22,6 +22,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: report.txt
+          path: .
       - name: viewing reports from first job
         run: cat report.txt
 
